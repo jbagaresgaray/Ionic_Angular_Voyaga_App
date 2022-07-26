@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>check_circle_outline-24px (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="51.4610648%" y1="84.4474871%" x2="51.4610648%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#D23078" offset="0%"></stop>
+            <stop stop-color="#FE6161" offset="72.5625797%"></stop>
+            <stop stop-color="#FF7955" offset="100%"></stop>
+        </linearGradient>
+        <path d="M14,2 C7.376,2 2,7.376 2,14 C2,20.624 7.376,26 14,26 C20.624,26 26,20.624 26,14 C26,7.376 20.624,2 14,2 Z" id="path-2"></path>
+        <filter x="-70.8%" y="-54.2%" width="241.7%" height="241.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="9.38461538 14.1538462 8 15.5384615 11.6923077 19.2307692 20 11.3846154 18.6153846 10 11.6923077 16.4615385"></polygon>
+        <filter x="-141.7%" y="-140.8%" width="383.3%" height="468.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Travelling-Friends" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Been" transform="translate(-81.000000, -1257.000000)">
+            <g id="Card-Copy-2" transform="translate(20.000000, 869.000000)">
+                <g id="Group">
+                    <g id="options" transform="translate(-1.000000, 378.000000)">
+                        <g id="been" transform="translate(66.000000, 14.000000)">
+                            <g id="check_circle_outline-24px-(1)" transform="translate(4.000000, 0.000000)">
+                                <path d="M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Shape"></path>
+                                <g id="Shape">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    <use fill="#E9486D" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    <use fill-opacity="0.75" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                </g>
+                                <g id="Checkmark">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

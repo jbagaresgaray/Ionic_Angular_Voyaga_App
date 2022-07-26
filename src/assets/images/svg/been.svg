@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <path id="path-2" fill-rule="evenodd" d="M10 18c0-6.62402344 5.37599945-12 12-12s12 5.37597656 12 12-5.37599945 12-12 12-12-5.37597656-12-12zm6 1.53845215l1.38461304-1.38458252 2.30769348 2.30767822L26.61538696 14 28 15.38464355l-8.30769348 7.84613038L16 19.53845215z"/>
+    <filter id="filter-3" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="4" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="6.024"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g>
+    <path fill="none"/>
+    <g>
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-3)" xlink:href="#path-2"/>
+      <use fill="rgb(195,195,195)" xlink:href="#path-2"/>
+    </g>
+  </g>
+</svg>

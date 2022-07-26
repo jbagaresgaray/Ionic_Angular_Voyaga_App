@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <ellipse id="ellipse-4" cx="40" cy="40" rx="25" ry="25"/>
+    <filter id="filter-5" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="4" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="6.024"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <linearGradient id="linearGradient-6" x1="40.731" x2="40.731" y1="57.224" y2="15" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(210,48,120)"/>
+      <stop offset=".726" stop-color="rgb(254,97,97)"/>
+      <stop offset="1" stop-color="rgb(255,121,85)"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <ellipse cx="40" cy="40" fill="rgb(226,227,228)" rx="25" ry="25"/>
+    <ellipse cx="40" cy="40" fill="rgb(244,50,127)" fill-opacity=".05" rx="40" ry="40"/>
+    <ellipse cx="40" cy="40" fill="rgb(244,50,127)" fill-opacity=".1" rx="32" ry="32"/>
+    <g>
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-5)" xlink:href="#ellipse-4"/>
+      <use fill="rgb(233,72,109)" xlink:href="#ellipse-4"/>
+      <use fill="url(#linearGradient-6)" xlink:href="#ellipse-4"/>
+    </g>
+    <rect width="24" height="24" x="28" y="28" fill="none" rx="0" ry="0"/>
+    <g>
+      <rect width="24" height="24" x="28" y="28" fill="none" rx="0" ry="0"/>
+      <path fill="rgb(255,255,255)" fill-rule="evenodd" d="M47 32v5.30004883L50 40h-3v8h-5v-6h-4v6h-5v-8h-3l10-9 4 3.59997559V32h3zm-7 4c-1.1000061 0-2 .90002441-2 2h4c0-1.09997559-.8999939-2-2-2z"/>
+    </g>
+  </g>
+</svg>

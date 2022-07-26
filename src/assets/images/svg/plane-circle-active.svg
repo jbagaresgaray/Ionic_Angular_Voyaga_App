@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <ellipse id="ellipse-4" cx="40" cy="40" rx="25" ry="25"/>
+    <filter id="filter-5" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="4" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="6.024"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <linearGradient id="linearGradient-6" x1="40.731" x2="40.731" y1="57.224" y2="15" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(210,48,120)"/>
+      <stop offset=".726" stop-color="rgb(254,97,97)"/>
+      <stop offset="1" stop-color="rgb(255,121,85)"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <ellipse cx="40" cy="40" fill="rgb(226,227,228)" rx="25" ry="25"/>
+    <ellipse cx="40" cy="40" fill="rgb(244,50,127)" fill-opacity=".05" rx="40" ry="40"/>
+    <ellipse cx="40" cy="40" fill="rgb(244,50,127)" fill-opacity=".1" rx="32" ry="32"/>
+    <g>
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-5)" xlink:href="#ellipse-4"/>
+      <use fill="rgb(233,72,109)" xlink:href="#ellipse-4"/>
+      <use fill="url(#linearGradient-6)" xlink:href="#ellipse-4"/>
+    </g>
+    <path fill="rgb(255,255,255)" fill-rule="evenodd" d="M44.22189256 49.61236265l1.43868-1.38931632-1.96056531-9.22801082 3.95637-3.8206199c.5970522-.57656628.61358902-1.52394505.03702275-2.12099725-.57656628-.5970522-1.52394505-.61358903-2.12099725-.03702275l-3.95637 3.8206199-9.1539653-2.28142918-1.43868 1.38931633 7.3556153 4.01807459-3.95637 3.8206199-2.46832632-.39669276-1.07901 1.04198725L34.02594 46.25192348l1.71196358 3.21234816 1.07901-1.04198725-.31030633-2.48066724 3.95637-3.8206199 3.7589153 7.4913654z"/>
+    <path fill="none" d="M29 28h24v24H29V28z"/>
+  </g>
+</svg>

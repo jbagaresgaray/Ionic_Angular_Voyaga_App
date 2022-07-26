@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="path-1" fill-rule="evenodd" d="M16 8c0 2.21002197-1.79000854 4-4 4s-4-1.78997803-4-4c0-2.21002197 1.79000854-4 4-4s4 1.78997803 4 4zM4 18c0-2.65997314 5.32998657-4 8-4s8 1.34002686 8 4v2H4v-2z"/>
+    <linearGradient id="linearGradient-2" x1="9.86" x2="18.379" y1="15.074" y2="4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(210,48,120)"/>
+      <stop offset=".726" stop-color="rgb(254,97,97)"/>
+      <stop offset="1" stop-color="rgb(255,121,85)"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g>
+      <use fill="rgb(233,72,109)" xlink:href="#path-1"/>
+      <use fill="url(#linearGradient-2)" xlink:href="#path-1"/>
+    </g>
+    <path fill="none" d="M0 0h24v24H0V0z"/>
+  </g>
+</svg>

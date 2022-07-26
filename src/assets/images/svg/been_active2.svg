@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <path id="path-2" fill-rule="evenodd" d="M10 18c0-6.62402344 5.37599945-12 12-12s12 5.37597656 12 12-5.37599945 12-12 12-12-5.37597656-12-12zm6 1.53845215l1.38461304-1.38458252 2.30769348 2.30767822L26.61538696 14 28 15.38464355l-8.30769348 7.84613038L16 19.53845215z"/>
+    <filter id="filter-3" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="4" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="6.024"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+<defs>
+    <linearGradient x1="51.4610648%" y1="84.4474871%" x2="51.4610648%" y2="0%" id="linearGradient-1">
+        <stop stop-color="#D23078" offset="0%"></stop>
+        <stop stop-color="#FE6161" offset="72.5625797%"></stop>
+        <stop stop-color="#FF7955" offset="100%"></stop>
+    </linearGradient>
+    <path d="M14,2 C7.376,2 2,7.376 2,14 C2,20.624 7.376,26 14,26 C20.624,26 26,20.624 26,14 C26,7.376 20.624,2 14,2 Z" id="path-2"></path>
+    <filter x="-189.6%" y="-147.9%" width="479.2%" height="479.2%" filterUnits="objectBoundingBox" id="filter-3">
+        <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    <polygon id="path-4" points="9.38461538 14.1538462 8 15.5384615 11.6923077 19.2307692 20 11.3846154 18.6153846 10 11.6923077 16.4615385"></polygon>
+    <filter x="-379.2%" y="-384.6%" width="858.3%" height="1085.8%" filterUnits="objectBoundingBox" id="filter-5">
+        <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+        <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+</defs>
+  <g>
+    <path fill="none"/>
+    <g>
+        <use fill="#FFFFFF" stroke="#FFFFFF" stroke-opacity="0" stroke-width="0" filter="url(#filter-3)" xlink:href="#path-2" />
+        <use fill="url(#linearGradient-1)" xlink:href="#path-2" />
+    </g>
+  </g>
+</svg>

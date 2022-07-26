@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <path id="path-2" fill-rule="evenodd" d="M45 17c-9.936 0-18 8.064-18 18s8.064 18 18 18 18-8.064 18-18-8.064-18-18-18z"/>
+    <filter id="filter-3" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="10" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="16.265"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <linearGradient id="linearGradient-4" x1="45.526" x2="45.526" y1="47.401" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(210,48,120)"/>
+      <stop offset=".726" stop-color="rgb(254,97,97)"/>
+      <stop offset="1" stop-color="rgb(255,121,85)"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path fill="none"/>
+    <g>
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-3)" xlink:href="#path-2"/>
+      <use fill="rgb(233,72,109)" xlink:href="#path-2"/>
+      <use fill="url(#linearGradient-4)" xlink:href="#path-2"/>
+      <use fill="rgb(170,170,170)" xlink:href="#path-2"/>
+    </g>
+    <g>
+      <path fill="none" d="M33 23h24v24H33V23z"/>
+      <path fill="rgb(238,238,238)" fill-rule="evenodd" d="M42 39.2L37.8 35l-1.4 1.4L42 42l12-12-1.4-1.4L42 39.2z"/>
+    </g>
+  </g>
+</svg>
